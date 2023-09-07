@@ -1,0 +1,10 @@
+.menu__header {
+  display: flex;
+}
+
+.menu__header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  padding: 10px 30px;
+}

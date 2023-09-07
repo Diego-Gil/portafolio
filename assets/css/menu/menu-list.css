@@ -1,0 +1,31 @@
+.menu__list {
+  display: flex;
+}
+
+.menu__list__item {
+  padding: 30px;
+}
+
+.menu__link {
+  color: gray;
+  text-decoration: none;
+}
+
+.menu__link:after {
+  content: "";
+  display: block;
+  margin-left: 0;
+  background-color: #f6f9f8;
+  height: 4px;
+  width: 0px;
+  transition: 0.5s;
+}
+
+.menu__link:hover:after {
+  width: 100%;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  color: white;
+}

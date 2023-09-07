@@ -1,0 +1,8 @@
+.skills__title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  /* color: var(--cor-de-fundo); */
+  padding-top: 2rem;
+  /* padding: 2rem; */
+}

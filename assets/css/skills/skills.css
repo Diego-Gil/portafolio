@@ -1,0 +1,10 @@
+.skills {
+  /* background-color: rgba(128, 128, 128, 0.381); */
+  background: linear-gradient(
+    0deg,
+    #f5f5f5,
+    gray 32.29%,
+    gray 60.81%,
+    #f5f5f5 93.75%
+  );
+}

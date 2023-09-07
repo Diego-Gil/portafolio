@@ -1,0 +1,40 @@
+.skills__line {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.skills__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 11rem;
+  height: 11rem;
+}
+
+.skills__img {
+  height: 50%;
+  object-fit: contain;
+  margin-bottom: 20px;
+  /* filter: grayscale(1); */
+  /* transition: all 0.3s ease-in-out; */
+}
+
+/* .skills__img:hover {
+  filter: grayscale(0);
+} */
+
+.skil__img {
+  width: 100px;
+  height: 100px;
+}
+
+.skills__name {
+  color: black;
+}

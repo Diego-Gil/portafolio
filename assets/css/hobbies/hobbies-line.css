@@ -1,0 +1,27 @@
+.hobbies__line {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+.hobbies__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 11rem;
+  height: 11rem;
+}
+
+.hobbies__img {
+  height: 50%;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.skills__name {
+  padding-top: 1rem;
+}
